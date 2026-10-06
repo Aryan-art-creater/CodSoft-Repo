@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan | Online Portfolio</title>
+  <meta name="description"
+    content="Computer Science student and aspiring web developer building projects with HTML, CSS, JavaScript and SQL." />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%233B82F6' width='100' height='100' rx='18'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-title">Online Portfolio</span>
+        <span class="logo-tagline">just another My Blog site</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#skill" class="nav-link">Skill</a>
+        <a href="#testimonial" class="nav-link">My Journey</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#works" class="nav-link">Works</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Aryan Jangra</h1>
+        <p>
+          Hi, I'm Aryan, a B.Tech CSE student passionate about Web Development. I build responsive and interactive
+          websites using HTML, CSS, JavaScript, and modern tools while continuously learning and improving my skills.
+        </p>
+        <a href="#contact" class="btn btn-hire">Hire Me</a>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/Aryan_biopic.png" alt="Aryan, web developer" />
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-photo-wrap">
+        <img src="assets/Aryan_standing.png" alt="Aryan standing in a navy suit" />
+      </div>
+      <div class="about-copy">
+        <h2 class="section-title">About Me</h2>
+        <p class="lead">
+          I’m a B.Tech CSE student who enjoys building websites and learning new technologies. I’m particularly
+          interested in Web Development and creating clean, responsive, and interactive user experiences.
+        </p>
+        <p>
+          I have worked on projects using HTML, CSS, JavaScript, Figma, Git, and MySQL. From designing interfaces in
+          Figma to turning those designs into functional websites, I enjoy taking an idea from concept to completion.
+          I’m currently expanding my skills in JavaScript, MySQL, and modern web technologies while building projects
+          that strengthen my development skills.
+        </p>
+        <a href="assets/Resume.pdf" class="btn btn-resume" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Services</h2>
+        <p>What I can build while I learn and grow as a developer.</p>
+      </div>
+      <div class="cards-3">
+        <article class="card">
+          <div class="icon-box" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M8 17l-4-5 4-5M16 7l4 5-4 5M14 4l-4 16" />
+            </svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Responsive websites and web apps built with clean HTML, CSS, JavaScript and modern frameworks.</p>
+        </article>
+        <article class="card">
+          <div class="icon-box" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="4" width="18" height="14" rx="2" />
+              <path d="M8 21h8M12 18v3" />
+            </svg>
+          </div>
+          <h3>UI / UX Design</h3>
+          <p>Designing clean and user-friendly interfaces in Figma and turning designs into functional websites.</p>
+        </article>
+        <article class="card">
+          <div class="icon-box" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M4 19V5a2 2 0 012-2h9l5 5v11a2 2 0 01-2 2H6a2 2 0 01-2-2z" />
+              <path d="M14 3v5h5M8 13h8M8 17h5" />
+            </svg>
+          </div>
+          <h3>Frontend Development</h3>
+          <p>Building responsive layouts, animations, interactive components and polished user interfaces.</p>
+        </article>
+        <article class="card">
+          <div class="icon-box" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="7" y="2" width="10" height="20" rx="2" />
+              <path d="M11 18h2" />
+            </svg>
+          </div>
+          <h3>JavaScript Development</h3>
+          <p>Creating interactive web features using JavaScript, DOM manipulation and event handling.</p>
+        </article>
+        <article class="card">
+          <div class="icon-box" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z" />
+            </svg>
+          </div>
+          <h3>Database Development</h3>
+          <p>Learning and working with MySQL to create, manage and query structured data.</p>
+        </article>
+        <article class="card">
+          <div class="icon-box" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
+            </svg>
+          </div>
+          <h3>Creative Projects</h3>
+          <p>Turning ideas and designs into personal projects that help me learn, experiment and improve my development
+            skills.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skill">
+    <div class="container skills-grid">
+      <div>
+        <h2 class="section-title">My Skills</h2>
+        <p class="lead">Skills I am currently learning and using in my projects.</p>
+        <p>
+          I enjoy learning by building real projects. I’m currently strengthening my skills in frontend development,
+          databases and programming while exploring new tools and technologies.
+        </p>
+      </div>
+      <div class="skill-list">
+        <div class="skill" data-value="95">
+          <div class="skill-top"><span>HTML / CSS</span><span>90%</span></div>
+          <div class="bar">
+             <span class="blue-bar" style="width: 90%;"></span>
+             <span class="white-bar"></span>
+          </div>
+        </div>
+        <div class="skill" data-value="90">
+          <div class="skill-top"><span>JavaScript</span><span>70%</span></div>
+           <div class="bar">
+             <span class="blue-bar" style="width: 70%;"></span>
+             <span class="white-bar"></span>
+          </div>
+        </div>
+        <div class="skill" data-value="85">
+          <div class="skill-top"><span>Figma</span><span>80%</span></div>
+           <div class="bar">
+             <span class="blue-bar" style="width: 80%;"></span>
+             <span class="white-bar"></span>
+          </div>
+        </div>
+        <div class="skill" data-value="80">
+          <div class="skill-top"><span>Git-Hub</span><span>65%</span></div>
+           <div class="bar">
+             <span class="blue-bar" style="width: 65%;"></span>
+             <span class="white-bar"></span>
+          </div>
+        </div>
+        <div class="skill" data-value="78">
+          <div class="skill-top"><span>MySQL</span><span>55%</span></div>
+           <div class="bar">
+             <span class="blue-bar" style="width: 55%;"></span>
+             <span class="white-bar"></span>
+          </div>
+        </div>
+        <div class="skill" data-value="88">
+          <div class="skill-top"><span>Python</span><span>45%</span></div>
+           <div class="bar">
+             <span class="blue-bar" style="width: 45%;"></span>
+             <span class="white-bar"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonial">
+    <div class="container">
+      <div class="section-head light">
+        <h2 class="section-title">My Journey</h2>
+        <p>Projects, learning and the journey toward becoming a better developer.</p>
+      </div>
+      <div class="slider" id="slider">
+        <article class="quote is-active">
+          <p>“I learn best by building things, breaking things, fixing them, and trying again.”</p>
+          <div class="quote-person">
+            <div class="avatar" style="background:#2563eb">AJ</div>
+            <div>
+              <strong>Aryan</strong>
+              <span>B.Tech CSE Student • Student Developer</span>
+            </div>
+          </div>
+        </article>
+        <article class="quote">
+          <p>“Every project gives me another chance to learn something I did not know before.”</p>
+          <div class="quote-person">
+            <div class="avatar" style="background:#0f766e">JM</div>
+            <div>
+              <strong>Aryan</strong>
+              <span>Web Development Learner</span>
+            </div>
+          </div>
+        </article>
+        <article class="quote">
+          <p>“I am building my portfolio step by step and improving my coding skills along the way.”</p>
+          <div class="quote-person">
+            <div class="avatar" style="background:#7c3aed">AK</div>
+            <div>
+              <strong>Aryan</strong>
+              <span>Aspiring Developer</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="dots" id="dots"></div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Experience</h2>
+        <p>My current journey as a student and developer.</p>
+      </div>
+      <div class="timeline">
+        <article class="tl-item">
+          <span class="tl-year">2026 — Present</span>
+          <h3>B.Tech CSE Student</h3>
+          <p class="tl-org">Sigma University</p>
+          <p>Studying computer science while developing my skills in
+            web development, programming, databases and software development.</p>
+        </article>
+        <article class="tl-item">
+          <span class="tl-year">2026 — Present</span>
+          <h3>Web Development</h3>
+          <p class="tl-org">Personal Projects</p>
+          <p>Building responsive websites and interactive web experiences
+            using HTML, CSS and JavaScript while learning modern web technologies.</p>
+        </article>
+        <article class="tl-item">
+          <span class="tl-year">2026 — Present</span>
+          <h3>UI / UX Design</h3>
+          <p class="tl-org">Figma & Personal Projects</p>
+          <p>Designing website interfaces in Figma and converting
+            design concepts into functional web pages.</p>
+        </article>
+        <article class="tl-item">
+          <span class="tl-year">2026 — Present</span>
+          <h3>Project Development</h3>
+          <p class="tl-org">Personal Projects</p>
+          <p>Building projects such as YumeStream, portfolio websites
+            and interactive web experiences while improving my coding skills.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Works</h2>
+        <p>A selection of projects I’ve built while learning and experimenting with web development.</p>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter is-active" data-filter="all">All</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="app">UI</button>
+        <button class="filter" data-filter="ui">Other</button>
+      </div>
+      <div class="works-grid">
+        <article class="work" data-cat="web">
+          <img src="assets/portfolio-pro1.png" alt="Analytics dashboard on a laptop" />
+          <div class="work-overlay">
+            <h3>Yume Stream</h3>
+            <span>Web · Dashboard</span>
+          </div>
+        </article>
+        <article class="work" data-cat="app">
+          <img src="assets/Ishu.png" alt="Mobile application on a smartphone" />
+          <div class="work-overlay">
+            <h3>Ishu</h3>
+            <span>App · Education</span>
+          </div>
+        </article>
+        <article class="work" data-cat="ui">
+          <img src="assets/Nike-UI.png" alt="Web design mockups on dual monitors" />
+          <div class="work-overlay">
+            <h3>UI Design</h3>
+            <span>UI · Branding</span>
+          </div>
+        </article>
+        <article class="work" data-cat="web">
+          <img src="assets/MySql join - 2.png" alt="Abstract blue geometric artwork" />
+          <div class="work-overlay">
+            <h3>SQL / MySQL Practice</h3>
+            <span>CMD · Practice</span>
+          </div>
+        </article>
+        <article class="work" data-cat="ui">
+          <img src="assets/NutiLife.png" alt="Team reviewing wireframes" />
+          <div class="work-overlay">
+            <h3>Hackathon Ideas</h3>
+            <span>UI · Workshop</span>
+          </div>
+        </article>
+        <article class="work" data-cat="app">
+          <img src="assets/portfolio-pro2.png" alt="Hands typing on a keyboard" />
+          <div class="work-overlay">
+            <h3>Coding Projects</h3>
+            <span>App · Productivity</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Blog</h2>
+        <p>Notes from my coding and project-building journey.</p>
+      </div>
+      <div class="cards-3 blog-grid">
+        <article class="post">
+          <img src="assets/Web_dev.png" alt="Developer coding on a laptop" />
+          <div class="post-body">
+            <time datetime="2026-08-12">12 Aug 2026</time>
+            <h3>Learning Web Development by Building</h3>
+            <p>How building real projects has helped me understand web development, from designing interfaces to writing and improving code.</p>
+            <a href="#blog">Read more</a>
+          </div>
+        </article>
+        <article class="post">
+          <img src="assets/Mysql.png" alt="Team collaborating on wireframes" />
+          <div class="post-body">
+            <time datetime="2026-07-03">03 Jul 2026</time>
+            <h3>Learning SQL and MySQL</h3>
+            <p>My experience learning SQL and MySQL, practicing queries, databases and the fundamentals of working with structured data.</p>
+            <a href="#blog">Read more</a>
+          </div>
+        </article>
+        <article class="post">
+          <img src="assets/New_blog.png" alt="Keyboard on a dark desk" />
+          <div class="post-body">
+            <time datetime="2026-05-21">21 May 2026</time>
+            <h3>Building My Portfolio</h3>
+            <p>How I designed and built my portfolio while learning more about responsive layouts, UI design and frontend development.</p>
+            <a href="#blog">Read more</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="lead">Want to talk about a project, collaboration or coding idea? Send me a message.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="mini-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </span>
+            <div><strong>Location</strong><span>Vadodara, Gujarat, India</span></div>
+          </li>
+          <li>
+            <span class="mini-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 4h16v16H4z" />
+                <path d="M22 6l-10 7L2 6" />
+              </svg>
+            </span>
+            <div><strong>Email</strong><span>aryanjangra556690@gmail.com</span></div>
+          </li>
+          <li>
+            <span class="mini-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.8 19.8 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" />
+              </svg>
+            </span>
+            <div><strong>Phone</strong><span>80593xxxxx</span></div>
+          </li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label>
+            Name
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required placeholder="you@email.com" />
+          </label>
+        </div>
+        <label>
+          Subject
+          <input type="text" name="subject" required placeholder="How can I help?" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required placeholder="Write your message..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-send">Send Message</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Aryan Jangra. All rights reserved.</p>
+      <div class="social">
+        <a href="#contact" aria-label="LinkedIn">in</a>
+        <a href="#contact" aria-label="GitHub">gh</a>
+        <a href="#contact" aria-label="Twitter">x</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
